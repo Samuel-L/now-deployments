@@ -7,5 +7,5 @@
       "use": "@now/next@canary"
     }
   ],
-  "routes": [{ "src": "/another/contact", "dest": "/contact" }]
+  "routes": [{ "dest": "/contact", "src": "/another/contact" }]
 }
