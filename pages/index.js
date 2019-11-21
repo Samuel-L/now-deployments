@@ -22,7 +22,10 @@ const Home = () => {
         <a style={{ marginRight: "1rem" }}>Go to contact</a>
       </Link>
       <Link href="/cool/contact">
-        <a>Go to the cool contact</a>
+        <a style={{ marginRight: "1rem" }}>Go to the cool contact</a>
+      </Link>
+      <Link href="/box" as="/cat/box">
+        <a>Go to the cat box page</a>
       </Link>
     </div>
   );
