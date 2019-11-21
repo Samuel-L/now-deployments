@@ -3,15 +3,26 @@ import Link from "next/link";
 import Head from "next/head";
 
 const Home = () => {
+  // uncomment to display errors in build logs
+  //   throw Error("An error");
+
   return (
     <div>
       <Head>
         <title>Home</title>
       </Head>
+
       <h1>Home</h1>
-      <p>this is the homepage</p>
+      <p>this is the homepage!</p>
+
       <Link href="/about">
-        <a>Go to about</a>
+        <a style={{ marginRight: "1rem" }}>Go to about</a>
+      </Link>
+      <Link href="/contact" as="/another/contact">
+        <a style={{ marginRight: "1rem" }}>Go to contact</a>
+      </Link>
+      <Link href="/cool/contact">
+        <a>Go to the cool contact</a>
       </Link>
     </div>
   );
