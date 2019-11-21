@@ -1,0 +1,11 @@
+{
+  "name": "now-deployment",
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/next@canary"
+    }
+  ],
+  "routes": [{ "src": "/another/contact", "dest": "/contact" }]
+}

@@ -2,15 +2,15 @@ import React from "react";
 import Link from "next/link";
 import Head from "next/head";
 
-const About = () => {
+const Contact = () => {
   return (
     <div>
       <Head>
-        <title>About</title>
+        <title>Contact</title>
       </Head>
 
-      <h1>About</h1>
-      <p>about page</p>
+      <h1>Cool Contact</h1>
+      <p>the cool contact page</p>
 
       <Link href="/">
         <a style={{ marginRight: "1rem" }}>Go to home</a>
@@ -19,4 +19,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Contact;
