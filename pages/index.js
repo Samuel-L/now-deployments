@@ -4,7 +4,7 @@ import Head from "next/head";
 
 const Home = () => {
   // uncomment to display errors in build logs
-  //   throw Error("An error");
+  throw Error("An error");
 
   return (
     <div>
