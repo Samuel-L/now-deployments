@@ -13,7 +13,7 @@ const Home = () => {
       </Head>
 
       <h1>Home</h1>
-      <p>this is the homepage!</p>
+      <p>this is the homepage!!</p>
 
       <Link href="/about">
         <a style={{ marginRight: "1rem" }}>Go to about</a>
